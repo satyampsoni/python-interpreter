@@ -12,6 +12,8 @@ The interpreter follows a classic three-stage pipeline:
 1. **Lexical Analysis (Lexing)**: Transforms source code text into a stream of tokens.
 2. **Syntax Analysis (Parsing)**: Organizes tokens into an Abstract Syntax Tree (AST).
 3. **Evaluation**: Executes the AST to produce program output.
+![Screenshot 2025-07-09 at 7 41 53 PM](https://github.com/user-attachments/assets/56005497-0713-4cea-b4c4-86584fe4024b)
+
 
 ### Tokenization and Lexical Analysis
 
@@ -190,6 +192,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 This interpreter was inspired by:
 
-- Thorsten Ball's *"Writing an Interpreter in Go"*.
+- [Thorsten Ball's *"Writing an Interpreter in Go"*.](https://interpreterbook.com/). I got the idea of this project while reading about this book only.
 - Python's design and syntax.
-- The rich history of programming language implementation.
+
+## Comments 
+If you come across any unusual comments in my project, they’re intentional. I’m a huge fan of Suits, and some of the comments are inspired by its characters and style. It’s just my personal touch, thanks for bearing with it!
+
